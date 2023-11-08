@@ -170,4 +170,4 @@ if __name__ == "__main__":
     solutions = solve(box, t)
     b = datetime.datetime.now()
     pprint.pprint(solutions, indent=2)
-    print(f'found {len(solutions)}, {len(solutions[0])}-word solutions in {(b-a).microseconds / 1000.0 }ms')
+    print(f'found {len(solutions)}, {len(solutions[0])}-word solutions in {(b-a).microseconds / 1000.0 / 1000.0 } seconds')
